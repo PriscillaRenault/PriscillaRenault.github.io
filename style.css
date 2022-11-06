@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+@font-face {
+    font-family: font_1;
+    src: url(/font/Jura-Regular.ttf);
+}
+
+body{
+    background: center repeat url(/image/BACKGROUND-1-1.jpg) ;
+    font-family: "font_1" , sans-serif ;
+    letter-spacing: 0.1rem;
+    line-height: 120%;
+
+}
+
+h1{
+    font-family: 'baumans', serif;
+    color:rgb(55, 0, 55);
+    width: 350px;
+    margin: auto;
+    min-width: 500px;
+}
+h2{
+    margin: 0px;
+}
+
+.welcome, 
+.catch{
+    font-family: 'baumans', serif;
+    color: rgb(55, 0, 55);
+}
+.welcome{
+    font-size: 1.5rem;
+    vertical-align: center;
+    text-align: center;
+}
+.catch{
+    font-size: 1.2rem;
+    clear: both;
+}
+
+img{
+    width: 150px;
+    margin: 15px;
+    border: outset darkmagenta 3px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+}
+
+.nav_site,
+.nav_cv{
+    list-style-type:none;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#97025c;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+#training{
+    font-size: 0.8rem;
+    clear: both;
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: auto; 
+    overflow: auto;
+    
+}
+
