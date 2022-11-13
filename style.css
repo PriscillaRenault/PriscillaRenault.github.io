@@ -15,9 +15,9 @@ body{
 h1{
     font-family: 'baumans', serif;
     color:rgb(55, 0, 55);
-    width: 350px;
+    width: 100%;
+    line-height: 100%;
     margin: auto;
-    min-width: 500px;
 }
 h2{
     margin: 0px;
