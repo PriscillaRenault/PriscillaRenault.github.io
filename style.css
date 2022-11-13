@@ -23,17 +23,17 @@ h2{
     margin: 0px;
 }
 
-.welcome, 
-.catch{
+#welcome, 
+#catch{
     font-family: 'baumans', serif;
     color: rgb(55, 0, 55);
 }
-.welcome{
+#welcome{
     font-size: 1.5rem;
     vertical-align: center;
     text-align: center;
 }
-.catch{
+#catch{
     font-size: 1.2rem;
     clear: both;
 }
