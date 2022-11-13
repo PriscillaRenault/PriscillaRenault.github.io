@@ -47,28 +47,5 @@ img{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
 }
 
-.nav_site,
-.nav_cv{
-    list-style-type:none;
-}
 
-a:hover{
-    text-decoration: none;
-    color:#97025c;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 1.2rem;
-}
-
-#training{
-    font-size: 0.8rem;
-    clear: both;
-    width: 250px;
-    height: 150px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: auto; 
-    overflow: auto;
-    
-}
 
