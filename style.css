@@ -4,48 +4,119 @@
     src: url(/font/Jura-Regular.ttf);
 }
 
+palette couleur{
+color: #0E4F4C;
+color:#bfe8e4;
+color: #840641;
+color: #3A2531;
+color: #e4c7e0;
+}
+
+
 body{
-    background: center repeat url(/image/BACKGROUND-1-1.jpg) ;
     font-family: "font_1" , sans-serif ;
     letter-spacing: 0.1rem;
     line-height: 120%;
+    background: #E4C7E0;
 
 }
 
-h1{
-    font-family: 'baumans', serif;
-    color:rgb(55, 0, 55);
-    width: 100%;
-    line-height: 100%;
-    margin: auto;
-}
-h2{
-    margin: 0px;
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background: #0E4F4C;
+    margin: 10px 0;
+    height: 50px;
 }
 
-#welcome, 
-#catch{
-    font-family: 'baumans', serif;
-    color: rgb(55, 0, 55);
+nav ul li{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    
 }
-#welcome{
+nav ul li a{
+    display: flex;
+    color:#bfe8e4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    align-items: center;
+}
+
+nav ul li a:hover{
+    color: #E4C7E0;
+    font-style: italic;
+    text-decoration:underline;
+}
+
+header{
+    display: flex;
+    border:2px solid #840641;
+    background-image: url(/image/background_header.jpg);
+    border-radius: 10px;
     font-size: 1.5rem;
     vertical-align: center;
     text-align: center;
+    height: 500px;
 }
-#catch{
-    font-size: 1.2rem;
-    clear: both;
+
+.entete{
+    display: flex;
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    border:2px solid #840641 ;
+    background-color:#bfe8e4;
+}
+
+.name{
+    flex-direction: column;
+    margin: auto;
+}
+
+
+h1, 
+.catch,
+.entete p{
+    font-family: 'baumans', serif;
+    color: #840641;
+    line-height: 100%;
+    margin: auto;
+    padding: 25px;
+    width: 250px;
+    height: 150;
 }
 
 img{
     width: 150px;
     margin: 15px;
-    border: outset darkmagenta 3px;
-    float: left;
+    border: outset #840641 3px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
 }
+
+h2{
+    margin: 15px;
+    color: #0E4F4C;
+    background: #bfe8e4;
+}
+#presentation,
+#training,
+#skills,
+#projects,
+#contact{
+    border: #840641 2px solid;
+    margin: 30px;
+}
+
+
+
+.catch{
+    font-size: 1.2rem;
+}
+
 
 
 
