@@ -14,10 +14,20 @@ color: #e4c7e0;
 
 body{
     font-family: "font_1" , sans-serif ;
+    height: 100%;
     letter-spacing: 0.1rem;
     font-size: 1.2em;
     line-height: 120%;
     background: #fcecf9;
+
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    height:4rem;
+    width: 100%;
+    background-color: #035670;
 
 }
 
@@ -55,6 +65,7 @@ header{
     display: flex;
     border:2px solid #840641;
     background-image: url(/image/background_header_2-2.jpg);
+    width: 100%;
     border-radius: 10px;
     font-size: 1.5rem;
     vertical-align: center;
@@ -98,8 +109,8 @@ img{
 }
 
 section h2{
-    width: 12%;
-    height: 15px;
+    width: 15%;
+    height:15px;
     margin:15px;
     padding: 15px;
     color: #0E4F4C;
