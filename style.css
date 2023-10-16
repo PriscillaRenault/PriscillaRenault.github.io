@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baumans&display=swap");
 @font-face {
     font-family: font_1;
     src: url(/font/Jura-Regular.ttf);
 }
 
-palette couleur{
-color: #035670;
-color:#b4dce8;
-color: #840641;
-color: #3A2531;
-color: #e4c7e0;
+palette couleur {
+    color: #035670;
+    color: #b4dce8;
+    color: #840641;
+    color: #3a2531;
+    color: #e4c7e0;
 }
 
-body{
-    font-family: "font_1" , sans-serif ;
+body {
+    font-family: "font_1", sans-serif;
     height: 100%;
     letter-spacing: 0.1rem;
     font-size: 1.2em;
@@ -21,20 +21,17 @@ body{
     background: #fcecf9;
     padding: 0;
     margin: 0;
-
 }
 
-
-nav{
+nav {
     position: sticky;
     top: 0px;
-    height:4rem;
+    height: 4rem;
     width: 100%;
     background-color: #035670;
-
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-around;
     background: #035670;
@@ -42,31 +39,30 @@ nav ul{
     height: 50px;
 }
 
-nav ul li{
+nav ul li {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    
 }
 
-nav ul li a{
+nav ul li a {
     display: flex;
-    color:#b4dce8;
+    color: #b4dce8;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5em;
     align-items: center;
 }
 
-nav ul li a:hover{
-    color: #E4C7E0;
+nav ul li a:hover {
+    color: #e4c7e0;
     font-style: italic;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
-header{
+header {
     display: flex;
-    border:2px solid #840641;
+    border: 2px solid #840641;
     background-image: url(/image/background_header_2-2.jpg);
     width: 100%;
     border-radius: 10px;
@@ -76,25 +72,25 @@ header{
     height: 500px;
 }
 
-.entete{
+.entete {
     display: flex;
     width: 50%;
     height: 60%;
     margin: auto;
-    border:2px solid #840641 ;
-    background-color:#b4dce8;
+    border: 2px solid #840641;
+    background-color: #b4dce8;
     box-shadow: 10px 10px 5px #0000007a;
 }
 
-.name{
+.name {
     flex-direction: column;
     margin: auto;
 }
 
-h1, 
+h1,
 .catch,
-.entete p{
-    font-family: 'baumans', serif;
+.entete p {
+    font-family: "baumans", serif;
     color: #840641;
     line-height: 100%;
     margin: auto;
@@ -103,7 +99,7 @@ h1,
     height: 150;
 }
 
-img{
+img {
     width: 150px;
     margin: 15px;
     border: outset #840641 3px;
@@ -111,12 +107,10 @@ img{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
 }
 
-section h2{
+.titleH2 {
     width: 15%;
-    height:15px;
-    margin:15px;
-    padding: 15px;
-    color: #0E4F4C;
+    height: 2.5rem;
+    margin: 1rem;
     background: #b4dce8;
     box-shadow: #0000007a 5px 5px 5px;
 }
@@ -125,19 +119,18 @@ section h2{
 #training,
 #skills,
 #projects,
-#contact{
+#contact {
     border: #840641 2px solid;
     margin: 30px;
     padding: 10px;
 }
 
-.catch{
+.catch {
     font-size: 1.2rem;
 }
 
-@media screen and (max-width:1024px)
-{
-    p{
+@media screen and (max-width: 1024px) {
+    p {
         color: red;
-    }    
+    }
 }

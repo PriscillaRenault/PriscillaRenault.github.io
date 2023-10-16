@@ -1,94 +1,216 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Priscilla RENAULT</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/image/icon_tab.png">
-</head>
-<body>
-
-    <main>
-        
-    <nav>
-        <ul>
-            <li ><a href="#Welcome"> Accueil </a> </li>
-            <li ><a href="#Presentation"> Profil </a> </li>
-            <li ><a href="#training"> Formations </a> </li>
-            <li ><a href="#skills"> Compétences </a> </li>
-            <li><a href="#projects"> Projets </a></li>
-            <li><a href="#contact"> Contact </a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <header>
-            
-            <div class="entete">
-                <div class="name">
-                    <h1>Priscilla Renault</h1>
-                    <h2 class="catch">Développeuse Web junior orientée backend</h2>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio Priscilla RENAULT</title>
+        <link
+            rel="stylesheet"
+            href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="/node_modules/bootstrap-icons/bootstrap-icons.svg"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="/image/icon_tab.png" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Dropdown
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Another action</a
+                                    >
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Something else here</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link disabled"
+                                href="#"
+                                tabindex="-1"
+                                aria-disabled="true"
+                                >Disabled</a
+                            >
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-success" type="submit">
+                            Search
+                        </button>
+                    </form>
                 </div>
-                <figure> 
-                    <a href ="/image/me.jpg"><img id="moi" src="/image/me-mini.jpg"></a>
-                </figure>
-                <p>Bienvenue dans mon Portfolio. </p>
-                
-                <!-- Photo accueil ecran code avec mon nom et ma fonction  -->
             </div>
-            
-        </header>
+        </nav>
 
-        <section id="presentation">
-            <h2>Profil</h2>
-            <p>Après 15 ans d'expérience dans le commerce, j'ai décidé de retourner vers un domaine que je n'avais pas approfondi pendant mes études : le développement web et les systèmes de gestion de bases de données.</p>
-            <p>J'ai donc repris mes études et suivi un bachelor développeur Python chez STUDI. Il m'a permis d'étudier plusieurs langages du web et de m'exercer à travers plusieurs cas pratiques. </p>
-        </section>
+        <nav>
+            <ul>
+                <li><a href="#Welcome"> Accueil </a></li>
+                <li><a href="#Presentation"> Profil </a></li>
+                <li><a href="#training"> Formations </a></li>
+                <li><a href="#skills"> Compétences </a></li>
+                <li><a href="#projects"> Projets </a></li>
+                <li><a href="#contact"> Contact </a></li>
+            </ul>
+        </nav>
 
-        <section id="training">
+        <main>
+            <header>
+                <div class="entete">
+                    <div class="name">
+                        <h1>Priscilla Renault</h1>
+                        <h2 class="catch">
+                            Développeuse Web junior orientée backend
+                        </h2>
+                    </div>
+                    <figure>
+                        <a href="/image/me.jpg"
+                            ><img id="moi" src="/image/me-mini.jpg"
+                        /></a>
+                    </figure>
+                    <p>Bienvenue dans mon Portfolio.</p>
 
-            <h2>Formation </h2>
+                    <!-- Photo accueil ecran code avec mon nom et ma fonction  -->
+                </div>
+            </header>
 
-            <p>Depuis février 2022 : Concepteur développeur d'applications - Niveau 6 (bac+3) - Bachelor développeur Python <br>
-            2007 : LP analyste de données géoréférencées <br>
-            2006 : DEUG de géographie <br>
-            2004 : Baccalauréat littéraire spécialité anglais
-            </p>
-        </section>
-            <section id = skills> <h2>Compétences</h2> 
-            
+            <section id="presentation">
+                <h2>Profil</h2>
+                <p>
+                    Après 15 ans d'expérience dans le commerce, et avec un
+                    projet de reconversion, j'ai décidé de retourner vers un
+                    domaine que je n'avais pas approfondi pendant mes études :
+                    le développement web et les systèmes de gestion de bases de
+                    données.
+                </p>
+                <p>
+                    J'ai donc repris mes études et suivi un bachelor Concepteur
+                    développeur d'applications spécialisé Python chez STUDI. Il
+                    m'a permis de découvrir/redécouvrir plusieurs langages du
+                    web et de m'exercer à travers plusieurs cas pratiques.
+                </p>
+            </section>
+
+            <section id="training">
+                <div class="titleH2">
+                    <h2>Formation</h2>
+                </div>
+
+                <p>
+                    Depuis février 2022 : Bachelor Concepteur développeur
+                    d'applications - Niveau 6 (bac+3) - Bachelor développeur
+                    Python <br />
+                    2007 : Licence Professionnelle analyste de données
+                    géoréférencées <br />
+                    2006 : DEUG de géographie <br />
+                    2004 : Baccalauréat littéraire spécialité anglais
+                </p>
+            </section>
+            <section id="skills">
+                <div class="titleH2">
+                    <h2>Compétences</h2>
+                </div>
+
                 <ul>
-                    <li>Présentation produits, formations, mise en place et accompagnement</li>
-                    <li>Construction et négociation d'une offre commerciale personnalisée</li>
+                    <li>boostrap</li>
+                    <li>
+                        Construction et négociation d'une offre commerciale
+                        personnalisée
+                    </li>
                     <li>Réponse aux objectifs</li>
                     <li>Transmission de la politique commerciale</li>
                     <li>Respect des étapes de la vente</li>
-                    <li>Merchandising et théatralisation de l'espace de vente</li>
+                    <li>
+                        Merchandising et théatralisation de l'espace de vente
+                    </li>
                     <li>Planification de tournée et prise de rdv</li>
-                    <li> Rédaction de synthèses après les événements marquants et de reportings</li>
+                    <li>
+                        Rédaction de synthèses après les événements marquants et
+                        de reportings
+                    </li>
                 </ul>
-        </section>
-        <section id="projects">
-            <h2>Mes projets</h2>
-            <!-- encart des différents projets studi et perso -->
-        </section>
-        <section id="contact">
-            <h2>contact</h2>
-            <form action="action.php" method="post">
-                <input type="email" name="Email" id="Email">
-                <input type="text" name="Name" id="Name">
-                <input type="date" name="dateofbirth" id="dateofbirth">
-                <textarea name="Comment" id="Comment" cols="30" rows="4"></textarea>
-
-            </form>
-            <!-- mail git, cv téléchargeable -->
-        </section>
-        <div>
-        </div>
-        
-    </main>
-
-</body>
+            </section>
+            <section id="projects">
+                <h2>Mes projets</h2>
+                <!-- encart des différents projets studi et perso -->
+            </section>
+            <section id="contact">
+                <h2>contact</h2>
+                <form action="action.php" method="post">
+                    <input type="email" name="Email" id="Email" />
+                    <input type="text" name="Name" id="Name" />
+                    <input type="date" name="dateofbirth" id="dateofbirth" />
+                    <textarea
+                        name="Comment"
+                        id="Comment"
+                        cols="30"
+                        rows="4"
+                    ></textarea>
+                </form>
+                <!-- mail git, cv téléchargeable -->
+            </section>
+            <div></div>
+        </main>
+    </body>
 </html>
